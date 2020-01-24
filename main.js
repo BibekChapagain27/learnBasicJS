@@ -219,3 +219,44 @@
 //         break;
         
 // }
+
+
+
+//Functions
+
+// function addNums(num1 , num2){
+//     return num1 + num2;
+    
+// }
+
+// console.log(addNums(3,8));
+
+// const addNums = (num1 , num2) => {
+//     return num1 + num2;
+    
+// }
+
+// console.log(addNums(4,8));
+
+
+//Constructive Function
+
+function Person(firstName, lastName, dob){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+
+    this.getBirthYear = function(){
+        return this.dob.getFullYear();
+    }
+}
+
+//Instantiate object
+
+const person1 = new Person('John', 'Doe', '4-4-1990');
+const person2 = new Person('Rohn', 'Do', '4-3-1980');
+
+//console.log(person1);
+
+console.log(person2.getBirthYear());
+
