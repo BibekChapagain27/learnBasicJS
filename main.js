@@ -61,23 +61,118 @@
 
 //object literals
 
-const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 30,
-    hobbies:['music', 'movies', 'sports'],
-    address: {
-        street: '50 main st',
-        city: 'Boston',
-        state: 'MA'
-    } 
-}
+// const person = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 30,
+//     hobbies:['music', 'movies', 'sports'],
+//     address: {
+//         street: '50 main st',
+//         city: 'Boston',
+//         state: 'MA'
+//     } 
+// }
 
-// console.log(person.firstName, person.lastName);
-// console.log(person.hobbies[1]);
-// console.log(person.address.city);
+// // console.log(person.firstName, person.lastName);
+// // console.log(person.hobbies[1]);
+// // console.log(person.address.city);
 
-person.email = 'john@gmail.com';
+// person.email = 'john@gmail.com';
 
-console.log(person);
+// console.log(person);
+
+
+
+// arrays of objects
+
+
+// const todos = [
+//     {
+//         id: 1,
+//         text: 'Take out trash',
+//         isCompleted: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         isCompleted: true
+//     },
+//     {
+//         id: 3,
+//         text: 'Dentist appointment',
+//         isCompleted: false
+//     }
+// ];
+
+//console.log(todos[1].text);
+
+// const todoJSON = JSON.stringify(todos);
+// console.log(todoJSON);
+
+
+//Loops
+
+//For
+
+// for(let i = 0; i<=10; i++){
+//     console.log(`for loop number ${i}`);
+// }
+
+// //While
+// let i = 0;
+// while(i<10){
+//     console.log(`While loop number ${i}`);
+//     i++;
+    
+
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist appointment',
+        isCompleted: false
+    }
+];
+
+//forEach, map, filter
+
+// todos.forEach(function(todo){
+//     console.log(todo.text);
+    
+// });
+
+// const todoText = todos.map(function(todo){
+//     return todo.text;
+    
+// });
+// console.log(todoText);
+
+
+// const todoCompleted = todos.filter(function(todo){
+//     return todo.isCompleted === true;
+    
+// });
+// console.log(todoCompleted);
+
+
+//Chaining
+
+
+// const todoCompleted = todos.filter(function(todo){
+//     return todo.isCompleted === true;
+    
+// }).map(function(todo){
+//     return todo.text;
+// });
+// console.log(todoCompleted);
 
