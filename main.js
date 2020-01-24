@@ -25,11 +25,37 @@
 // console.log(typeof rating);
 
 
-const name = 'John';
-const age = 30;
+// const name = 'John';
+// const age = 30;
 
-//concatenation
-console.log('My name is ' + name + ' and I am ' + age); //old way
+// //concatenation
+// console.log('My name is ' + name + ' and I am ' + age); //old way
 
-//Template String
-console.log(`My name is ${name} and I am ${age}`); //new way
+// //Template String
+// console.log(`My name is ${name} and I am ${age}`); //new way
+
+
+//const s = 'Hello World';
+//console.log(s.length);
+//console.log(s.toUpperCase());
+//console.log(s.toLowerCase());
+//console.log(s.substring(0,4).toUpperCase());
+//console.log(s.split(' '));
+
+
+//Arrays 
+
+// const fruits = ['apples', 'oranges', 'pears'];
+// //console.log(fruits);
+// fruits.push('grapes'); //adding at end of array
+// fruits.unshift('strawberries'); //adding at front of array
+
+// fruits.pop(); // deleting last one from array
+
+// console.log(Array.isArray(fruits)); //checking if array or not
+// console.log(Array.isArray('hello'));
+
+// console.log(fruits);
+// console.log(fruits.indexOf('oranges')); //index of 
+
+
