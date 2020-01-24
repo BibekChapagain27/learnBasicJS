@@ -14,12 +14,22 @@
 //datatypes
 //primitive data types.. strings, numbers, boolean, null, undefines
 
+// const name = 'John';
+// const age = 30;
+// const rating = 4.5;
+// const isCool = true;
+// const x = null;
+// const y = undefined;
+// let z;
+
+// console.log(typeof rating);
+
+
 const name = 'John';
 const age = 30;
-const rating = 4.5;
-const isCool = true;
-const x = null;
-const y = undefined;
-let z;
 
-console.log(typeof rating);
+//concatenation
+console.log('My name is ' + name + ' and I am ' + age); //old way
+
+//Template String
+console.log(`My name is ${name} and I am ${age}`); //new way
