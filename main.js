@@ -293,7 +293,7 @@
 // const person1 = new Person('John', 'Doe', '4-4-1990');
 // const person2 = new Person('Rohn', 'Do', '4-3-1980');
 
-// console.log(person1);
+
 
 // console.log(person1.getBirthYear());
 // console.log(person1.getFullName());
